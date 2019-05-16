@@ -19,6 +19,7 @@
 		DF5E9463228C606E007DB891 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E9462228C606E007DB891 /* User.swift */; };
 		DF5E9465228C644C007DB891 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E9464228C644C007DB891 /* UIImage+Extension.swift */; };
 		DF5E9467228C6605007DB891 /* UsersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E9466228C6605007DB891 /* UsersCollectionViewCell.swift */; };
+		DF5E9476228CFDC5007DB891 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF5E9475228CFDC5007DB891 /* Info.plist */; };
 		DFBCB5CA2289DC7400598176 /* UsersCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFBCB5C92289DC7400598176 /* UsersCollectionViewCell.xib */; };
 		DFF12A462289D2B700FEB040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF12A452289D2B700FEB040 /* AppDelegate.swift */; };
 		DFF12A482289D2B700FEB040 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF12A472289D2B700FEB040 /* DashboardViewController.swift */; };
@@ -39,13 +40,13 @@
 		DF5E9462228C606E007DB891 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DF5E9464228C644C007DB891 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		DF5E9466228C6605007DB891 /* UsersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCollectionViewCell.swift; sourceTree = "<group>"; };
+		DF5E9475228CFDC5007DB891 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = StreamLabs/Info.plist; sourceTree = "<group>"; };
 		DFBCB5C92289DC7400598176 /* UsersCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersCollectionViewCell.xib; sourceTree = "<group>"; };
 		DFF12A422289D2B700FEB040 /* StreamLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF12A452289D2B700FEB040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFF12A472289D2B700FEB040 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		DFF12A4A2289D2B700FEB040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFF12A4F2289D2B900FEB040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DFF12A512289D2B900FEB040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				DFF12A442289D2B700FEB040 /* StreamLabs */,
-				DFF12A512289D2B900FEB040 /* Info.plist */,
+				DF5E9475228CFDC5007DB891 /* Info.plist */,
 				DFF12A432289D2B700FEB040 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -249,6 +250,7 @@
 				DFF12A502289D2B900FEB040 /* LaunchScreen.storyboard in Resources */,
 				DFBCB5CA2289DC7400598176 /* UsersCollectionViewCell.xib in Resources */,
 				DF5E9455228B22C0007DB891 /* Assets.xcassets in Resources */,
+				DF5E9476228CFDC5007DB891 /* Info.plist in Resources */,
 				DFF12A4B2289D2B700FEB040 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
